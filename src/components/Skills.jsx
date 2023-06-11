@@ -5,7 +5,7 @@ import{SiTailwindcss} from 'react-icons/si';
 
 const Skills = () => {
   return (
-<div name='skills' className='w-full h-screen bg-[#103463]'>
+<div name='skills' className='w-full h-full bg-[#103463]'>
 
     <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -59,7 +59,7 @@ const Skills = () => {
             <h4 className = 'font-bold text-white text-center'>Currently learning</h4>
         </div>
     
-            <div className = 'w-full grid grid-cols-4 sm:grid-cols-3 gap-4 text-center py-8'>
+            <div className = 'w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-8'>
                     <div className ='flex flex-col justiy-center text-center'>
                         <i className='text-white mx-auto'><DiReact size={50} /></i>
                         <p className ='py-4 text-white'>React</p>        

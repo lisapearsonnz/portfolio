@@ -20,7 +20,7 @@ const Skills = () => {
 
                     <div className ='flex flex-col justiy-center text-center'>
                         <i className='text-white mx-auto'><DiCss3 size={100} /></i>
-                        <p className ='py-4 text-white'>HTML 5</p>        
+                        <p className ='py-4 text-white'>CSS 3</p>        
                     </div>
 
                     <div className ='flex flex-col justiy-center text-center'>

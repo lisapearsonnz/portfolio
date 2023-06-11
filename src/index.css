@@ -14,3 +14,22 @@
     @apply cursor-pointer;
   }
 }
+
+/*Testing Dark Mode*/
+:root{
+  --primary-color:#fde0e0;
+  --secondary-color:#103463;
+  --light-color:#fafafa;
+  --text-primary:#333333;
+  --text-secondary:#eee;
+  --text-accent:#103463;
+}
+
+[data-theme='dark']{
+    --primary-color:#1e1e1e;
+    --secondary-color:#111111;
+    --light-color:#333333;
+    --text-primary:#eee;
+    --text-secondary: #333333;
+    --text-accent:#fde0e0;
+}

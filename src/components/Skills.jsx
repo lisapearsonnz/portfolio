@@ -5,7 +5,7 @@ import{SiTailwindcss} from 'react-icons/si';
 
 const Skills = () => {
   return (
-<div name='skills' className='w-full h-full bg-[#103463]'>
+<div name='skills' className='w-full h-full bg-[var(--secondary-color)]'>
 
     <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>

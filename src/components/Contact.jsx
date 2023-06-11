@@ -3,15 +3,15 @@ import {HiOutlineMail} from 'react-icons/hi';
 
 const Contact = () => {
   return (
-<div name='contact' className='w-full h-screen bg-[#fde0e0] flex justify-center items-center p-4'>
+<div name='contact' className='w-full h-screen bg-[var(--primary-color)] flex justify-center items-center p-4'>
         <div>
 
             <form action="https://getform.io/f/2f09242a-dcd8-4e11-8e1c-b017b68f83cc" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
-                    <h3 className='text-4xl font-bold text-center'>
+                    <h3 className='text-4xl font-bold text-center text-[var(--text-primary)]'>
                     Drop me a line
                     </h3>
-                <p>Whether you'd like to collaborate, hire or just dropping by to say hi, I would love to hear from you :) !</p>
+                <p className='text-[var(--text-primary)]'>Whether you'd like to collaborate, hire or just dropping by to say hi, I would love to hear from you :) !</p>
                 </div>
                 <input className='p-2' type='text' placeholder='Name' name='name' />
                     <input className='my-4 p-2' type='email' placeholder='Email' name='email' />
